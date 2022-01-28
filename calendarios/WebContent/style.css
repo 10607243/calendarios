@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body {
+  background-color: #36acac;
+  font-family: sans-serif;
+}
+
+div {
+  background-color: lightyellow;
+  border: black 1px solid;
+  padding: 10px 30px;
+  margin: 10px;
+  width: 50%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.en table {
+  border-collapse: collapse;
+  border: none;
+  text-align: center;
+}
+
+div.en caption {
+  font-style: oblique;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+div.en td {
+  width: 3em;
+  border-left: none;
+  border-right: none;
+}
+
+div.en th {
+  width: 3em;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+div.fe table {
+  border: none;
+  border-collapse: collapse;
+  text-align: right;
+}
+div.fe caption {
+  font-weight: bold;
+  text-align: right;
+}
+div.fe th {
+  border-top: none;
+  border-bottom: none;
+  padding-right: 5px;
+}
+div.fe td {
+  border-top: none;
+  border-bottom: none;
+  font-size: 140%;
+  padding-right: 5px;
+  width: 1.5em;
+}
+
+div.ma table {
+  border: black 1px solid;
+  border-collapse: collapse;
+  text-align: left;
+}
+div.ma caption {
+  letter-spacing: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+div.ma th {
+  text-align: center;
+}
+div.ma td {
+  width: 4em;
+  height: 4em;
+  padding-left: 5px;
+  font-size: 80%;
+  vertical-align: top;
+}
